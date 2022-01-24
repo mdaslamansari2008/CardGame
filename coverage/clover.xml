@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1643063151198" clover="3.2.0">
+  <project timestamp="1643063151198" name="All files">
+    <metrics statements="95" coveredstatements="68" conditionals="18" coveredconditionals="9" methods="30" coveredmethods="19" elements="143" coveredelements="96" complexity="0" loc="95" ncloc="95" packages="2" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="sum.js" path="/Users/ibnadam/Documents/Project/CardGame/src/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.views">
+      <metrics statements="93" coveredstatements="66" conditionals="18" coveredconditionals="9" methods="29" coveredmethods="18"/>
+      <file name="card.js" path="/Users/ibnadam/Documents/Project/CardGame/src/views/card.js">
+        <metrics statements="16" coveredstatements="14" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="4"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="62" type="stmt"/>
+        <line num="6" count="62" type="stmt"/>
+        <line num="7" count="62" type="stmt"/>
+        <line num="9" count="62" type="stmt"/>
+        <line num="20" count="62" type="stmt"/>
+        <line num="31" count="62" type="cond" truecount="3" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="62" type="stmt"/>
+        <line num="37" count="62" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="52" count="62" type="stmt"/>
+        <line num="59" count="62" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+      </file>
+      <file name="cards.js" path="/Users/ibnadam/Documents/Project/CardGame/src/views/cards.js">
+        <metrics statements="77" coveredstatements="52" conditionals="10" coveredconditionals="3" methods="24" coveredmethods="14"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="60" type="stmt"/>
+        <line num="10" count="60" type="stmt"/>
+        <line num="11" count="60" type="stmt"/>
+        <line num="12" count="60" type="stmt"/>
+        <line num="13" count="60" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="26" count="15" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="66" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="76" count="5" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="101" count="5" type="stmt"/>
+        <line num="102" count="5" type="stmt"/>
+        <line num="103" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="106" count="5" type="stmt"/>
+        <line num="107" count="5" type="stmt"/>
+        <line num="111" count="5" type="stmt"/>
+        <line num="112" count="5" type="stmt"/>
+        <line num="115" count="5" type="stmt"/>
+        <line num="116" count="60" type="stmt"/>
+        <line num="119" count="5" type="stmt"/>
+        <line num="120" count="60" type="stmt"/>
+        <line num="123" count="5" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="132" count="5" type="stmt"/>
+        <line num="142" count="60" type="stmt"/>
+        <line num="154" count="60" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

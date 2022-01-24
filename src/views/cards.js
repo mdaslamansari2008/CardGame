@@ -32,12 +32,10 @@ function prepareListOfRandomNumbers() {
 
     while (collectionOfRandomNumber.length < 6) {
         const object = { id: generateRandomNumbersToString() };
-        console.log(isInArray(object, collectionOfRandomNumber))
         if (isInArray(object, collectionOfRandomNumber) === false) {
             collectionOfRandomNumber.push(object);
         }
     }
-    console.log(collectionOfRandomNumber);
     return collectionOfRandomNumber;
 }
 
@@ -134,10 +132,11 @@ const Cards = () => {
     return (
         <View>
             <View style={styles.headerContainer}>
-                <Button title='RESET' style={styles.reset} onPress={handleRestart} />
-                <Text style={styles.step}>STEP {moves}</Text>
+                <Button testID="resetTestID" title='RESET' style={styles.reset} onPress={handleRestart} />
+                <Text testID="stepsTestID" style={styles.step}>STEPS {moves}</Text>
             </View>
             <FlatList
+                testID="listOfCardsFlatListTestID"
                 data={cards}
                 renderItem={({ item, index }) => (
                     <View style={styles.itemContainer}>

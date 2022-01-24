@@ -44,7 +44,7 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
         Animated.timing(flipAnimation, {
             toValue: 180,
             duration: 300,
-            useNativeDriver: true,
+            useNativeDriver: false,
         }).start();
     };
 
@@ -52,19 +52,19 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
         Animated.timing(flipAnimation, {
             toValue: 0,
             duration: 300,
-            useNativeDriver: true,
+            useNativeDriver: false,
         }).start();
     };
 
     return (
         <View style={styles.container}>
-            <TouchableHighlight style={styles.item} onPress={onPress} >
+            <TouchableHighlight testID="cardTapTestID" style={styles.item} onPress={onPress} >
                 <View>
                     <Animated.View style={[styles.flipCard, styles.flipCardBack, flipToFrontStyle]}>
-                        <Text style={styles.buttonText}>?</Text>
+                        <Text testID="hidderCardTestID" style={styles.buttonText}>?</Text>
                     </Animated.View>
-                    <Animated.View style={[styles.flipCard, flipToBackStyle]}>
-                        <Text style={styles.buttonText}>{card.id}</Text>
+                    <Animated.View  style={[styles.flipCard, flipToBackStyle]}>
+                        <Text testID="showCardTestID" style={styles.buttonText}>{card.id}</Text>
                     </Animated.View>
                 </View>
             </TouchableHighlight>
