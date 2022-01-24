@@ -17,5 +17,6 @@ An interesting fun guessing game, Its about finding pair of cards with min steps
 
 * Best Score.
 
+[demo]: https://github.com/mdaslamansari2008/CardGame/blob/master/ReadmeAsset/demo.gif "Demonstration of current app"
 
 
